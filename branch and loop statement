@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main ()
+{
+   int day=0;
+   scanf("%d",&day);
+   switch (day)// day must be int;
+case 1:
+   printf ("Monday");
+   break;//Case is followed by a break statement,Escape from a case statement.
+case 2:
+   printf ("Tuesday");
+   break;
+case 3:
+   printf ("Wednesday");
+   break;
+case 4:
+   printf ("Thursday");
+   break;
+case 5:
+   printf ("Friday");
+   break;
+case 6:
+   printf ("Staurday");
+   break;
+case 7:
+   printf ("Sunday");
+   break;
+}
